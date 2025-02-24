@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10 mt-5">
+            <h2 class="text-center mb-4">Your Movie Bookings</h2>
+            @for (item of userBooking(); track $index) {
+                <div class="card shadow-lg mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">
+                            <span class="badge bg-light text-dark me-2">{{$index + 1}}</span> 
+                            {{item.movieName}}
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Date:</strong> {{item.selectedDate | date}}</p>
+                        <p><strong>Show Time:</strong> {{item.show}}</p>
+                        <p><strong>Seats:</strong> {{item.seats}}</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

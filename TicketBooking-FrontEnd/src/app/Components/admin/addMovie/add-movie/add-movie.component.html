@@ -1,0 +1,194 @@
+<div class="container">
+    <div class="row mt-5">
+      <div class="col-md-5 movieForm" >
+        <div class="row">
+            <div class="col-md-12 mt-2">
+                <div class="text-dark fs-4 mb-3">Enter Movie Details:</div>
+            </div>
+       </div>
+        <form [formGroup]="movieForm" class="d-flex flex-column p-3">
+          <div class="row mb-3">
+            <div class="col-md-5">
+              <label for="movieName" class="form-label">Movie Name</label>
+              <input
+                id="movieName"
+                type="text"
+                formControlName="movieName"
+                placeholder="Enter movie name"
+                class="form-control"
+                required
+              />
+              <div class="text-danger" *ngIf="movieForm.get('movieName')?.touched && movieForm.get('movieName')?.errors?.['required']" ><small> Movie Name Required </small></div>
+
+            </div>
+            <div class="col-md-5">
+              <label for="movieDescription" class="form-label">Movie Description</label>
+              <input
+                id="movieDescription"
+                type="text"
+                formControlName="movieDescription"
+                placeholder="Enter movie description"
+                class="form-control"
+                required
+              />
+              <div class="text-danger" *ngIf="movieForm.get('movieDescription')?.touched && movieForm.get('movieDescription')?.errors?.['required']" ><small> Movie Description Required </small></div>
+
+            </div>
+          </div>
+          <!-- Row 2 -->
+          <div class="row mb-3">
+            <div class="col-md-5">
+              <label for="movieDuration" class="form-label">Movie Duration</label>
+              <input
+                id="movieDuration"
+                type="number"
+                formControlName="movieDuration"
+                placeholder="Enter duration"
+                class="form-control"
+                required
+              />
+              <div class="text-danger" *ngIf="movieForm.get('movieDuration')?.touched && movieForm.get('movieDuration')?.errors?.['required']" ><small> Movie Duration Required </small></div>
+            </div>
+            <div class="col-md-5">
+              <label for="movieRating" class="form-label">Movie Rating</label>
+              <input
+                id="movieRating"
+                type="text"
+                formControlName="movieRating"
+                placeholder="Enter rating"
+                class="form-control"
+                required
+              />
+              <div class="text-danger" *ngIf="movieForm.get('movieRating')?.touched && movieForm.get('movieRating')?.errors?.['required']" ><small> Movie Rating Required </small></div>
+            </div>
+          </div>
+          <!-- Row 3 -->
+          <div class="row mb-3">
+            <div class="col-md-5">
+              <label for="movieGenre" class="form-label">Movie Genre</label>
+              <p-select styleClass="h-20" id="movieGenre" formControlName="movieGenre" placeholder="Select genre" [options]="genre"  required></p-select>
+              <div class="text-danger" *ngIf="movieForm.get('movieGenre')?.touched && movieForm.get('movieGenre')?.errors?.['required']" ><small> Movie Genre Required </small></div>
+            </div>
+            <div class="col-md-5">
+              <label for="movieLanguage" class="form-label">Movie Language</label>
+              <p-select styleClass="h-20" id="movieLanguage" formControlName="movieLanguage" placeholder="Select Language" [options]="language"  required></p-select>
+              <div class="text-danger" *ngIf="movieForm.get('movieLanguage')?.touched && movieForm.get('movieLanguage')?.errors?.['required']" ><small> Movie Language Required </small></div>
+            </div>
+          </div>
+          <!-- Row 4 -->
+          <div class="row">
+            <div class="col-md-7">
+              <label for="movieReleaseDate" class="form-label">Release Date</label>
+              <input type="date" id="movieReleaseDate" formControlName="movieReleaseDate" class="form-control" required>
+              <div class="text-danger" *ngIf="movieForm.get('movieReleaseDate')?.touched && movieForm.get('movieReleaseDate')?.errors?.['required']" ><small> Movie Release Date Required </small></div>
+            </div>
+            <div class="col-md-4">
+              <label for="movieImage" class="form-label">Movie Image</label>
+              <input
+                id="movieImage"
+                type="string"
+                formControlName="movieImage"
+                class="form-control"
+                required
+                placeholder="Enter Movie Url"
+              />
+              <div class="text-danger" *ngIf="movieForm.get('movieImage')?.touched && movieForm.get('movieImage')?.errors?.['required']" ><small> Movie Image Required </small></div>
+          </div>
+          </div>
+          <button  class="btn btn-primary mt-3 mx-auto w-50" (click)="addMovie()" type="submit">Submit Movie Form</button>
+        </form>
+      </div>
+          <!-- Movie Show Details Form -->
+          <div class="movieShowForm col-md-6">
+            <div class="row">
+              <div class="col-md-12 mt-2">
+                <div class="text-dark fs-4">Enter Movie Show Details:</div>
+              </div>
+            </div>
+          
+            <form [formGroup]="movieShowForm" class="d-flex flex-column p-3">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="text-dark mb-3">Select Movie</div>
+                  <select name="Movie" id="Movie" class="form-select mb-3" formControlName="movieId" >
+                    <option *ngFor="let item of movieStore$.movies()" [value]="item.id">
+                      {{ item.movieName }}
+                    </option>
+                  </select>
+                </div>
+              </div>
+          
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="showDate" class="form-label">Show Date Range</label>
+                  <p-datepicker
+                    [minDate]="minDate"
+                    selectionMode="range"
+                    formControlName="dateRange"
+                    [(ngModel)]="dateRange"  
+                    placeholder="Date Range"
+                  ></p-datepicker>
+                </div>
+          
+                <div class="col-md-6">
+                  <label for="ShowTime" class="form-label">Show Time</label>
+                  <p-multiselect
+                    [filter]="true"
+                    id="ShowTime"
+                    placeholder="Select ShowTime"
+                    [options]="showTime"
+                    [(ngModel)]="selectedShowTime"  
+                    formControlName="showTime"
+                    styleClass="w-full"
+                    [maxSelectedLabels]="1"
+                  ></p-multiselect>
+                </div>
+              </div>
+          
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="ticketPrice" class="form-label">Ticket Price</label>
+                  <input
+                    id="ticketPrice"
+                    type="number"
+                    placeholder="Enter Ticket Price"
+                    formControlName="ticketPrice"
+                    class="form-control"
+                  />
+                </div>
+          
+                <div class="col-md-6">
+                  <label for="screenNumber" class="form-label">Screen Number</label>
+                  <input
+                    id="screenNumber"
+                    type="number"
+                    placeholder="Enter Screen Number"
+                    formControlName="screenNumber"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+          
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="seats" class="form-label">Total Seats</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="seats"
+                    placeholder="Total Seats"
+                    formControlName="totalSeats"
+                  />
+                </div>
+              </div>
+          
+              <button class="btn btn-primary mt-3 mx-auto w-50" type="submit" (click)="addShowDetails()">
+                Submit Show Details
+              </button>
+            </form>
+          </div>
+          
+
+    </div>
+  </div>
+  

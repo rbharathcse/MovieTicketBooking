@@ -1,0 +1,13 @@
+.thick-border-table table {
+    /* border-collapse: collapse; */
+}
+
+.thick-border-table th,
+.thick-border-table td {
+    border: 1px solid rgb(91, 87, 87);
+    padding: 8px; 
+}
+
+.thick-border-table th {
+    background-color: #f0f0f0; 
+}

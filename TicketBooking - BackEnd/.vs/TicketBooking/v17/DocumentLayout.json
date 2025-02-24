@@ -1,0 +1,745 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\showdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\showdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\showdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\showdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250130054552_booking5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250130054552_booking5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\movieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\movieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\ticketbooking.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\ticketbooking.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120151454_Init25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120151454_Init25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120151134_Init23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120151134_Init23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120130153_hu8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120130153_hu8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120130059_hu7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120130059_hu7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120104628_hu6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120104628_hu6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120104426_hu4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120104426_hu4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120103947_hu4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120103947_hu4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120103035_hu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120103035_hu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120093745_ShowDetails7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120093745_ShowDetails7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120093350_ShowDetails6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120093350_ShowDetails6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120091322_ShowDetails2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120091322_ShowDetails2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120090347_ShowDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBooking\\Migrations\\20250120090347_ShowDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250120151650_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250120151650_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250121045532_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250121045532_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250121045504_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250121045504_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250122084442_init6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250122084442_init6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250122084234_init5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250122084234_init5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250122041048_init4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250122041048_init4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250128093229_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250128093229_booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250129043454_booking 2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250129043454_booking 2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250129052838_booking 3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250129052838_booking 3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250130065426_booking7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250130065426_booking7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250130070246_booking8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250130070246_booking8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|c:\\users\\bharathkumar\\source\\repos\\ticketbooking\\ticketbooking\\migrations\\20250130044706_booking4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B86CE4F-36C1-4AAA-B504-93C10D018607}|TicketBooking\\TicketBooking.csproj|solutionrelative:ticketbooking\\migrations\\20250130044706_booking4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250130065426_Booking7.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250130065426_Booking7.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250130065426_Booking7.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250130065426_Booking7.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250130065426_Booking7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:54:27.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TicketBooking\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwGoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:22:21.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "showDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\showDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\showDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\showDetailsViewModel.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\showDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:47:56.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowDetails.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\ShowDetails.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\ShowDetails.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\ShowDetails.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\ShowDetails.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:33:40.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TicketBooking\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAywP0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:15:18.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\ViewModel.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\ViewModel.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\ViewModel.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\ViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:31:35.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TicketBooking\\Database\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAxwA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:34:56.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250130070246_Booking8.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250130070246_Booking8.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250130070246_Booking8.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250130070246_Booking8.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250130070246_Booking8.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T07:02:46.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250130054552_Booking5.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250130054552_Booking5.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250130054552_Booking5.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250130054552_Booking5.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250130054552_Booking5.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T05:45:53.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MovieViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\MovieViewModel.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\MovieViewModel.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\MovieViewModel.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\MovieViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:27:54.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\Movie.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\Movie.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:22:48.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\Booking.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:29:55.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250129043454_Booking 2.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250129043454_Booking 2.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250129043454_Booking 2.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250129043454_Booking 2.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250129043454_Booking 2.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T04:34:55.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20250130044706_Booking4.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250130044706_Booking4.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250130044706_Booking4.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250130044706_Booking4.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250130044706_Booking4.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T04:47:06.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250129052838_Booking 3.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250129052838_Booking 3.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250129052838_Booking 3.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250129052838_Booking 3.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250129052838_Booking 3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:28:38.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\LoginModel.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:08:30.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250128093229_booking.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250128093229_booking.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250128093229_booking.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250128093229_booking.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250128093229_booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:32:29.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:27:53.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Program.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Program.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Program.cs",
+              "RelativeToolTip": "TicketBooking\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:10:13.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketBooking.http",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\TicketBooking.http",
+              "RelativeDocumentMoniker": "TicketBooking\\TicketBooking.http",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\TicketBooking.http",
+              "RelativeToolTip": "TicketBooking\\TicketBooking.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-22T10:58:22.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\appsettings.json",
+              "RelativeDocumentMoniker": "TicketBooking\\appsettings.json",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\appsettings.json",
+              "RelativeToolTip": "TicketBooking\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T04:06:00.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250122084234_Init5.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250122084234_Init5.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250122084234_Init5.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250122084234_Init5.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250122084234_Init5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:42:35.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250122084442_Init6.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250122084442_Init6.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250122084442_Init6.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250122084442_Init6.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250122084442_Init6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:44:42.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250122041048_Init4.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250122041048_Init4.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250122041048_Init4.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250122041048_Init4.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250122041048_Init4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T04:10:48.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\UserModel.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:07:19.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250121045504_1.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250121045504_1.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250121045504_1.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250121045504_1.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250121045504_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:55:04.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250121045532_2.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250121045532_2.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250121045532_2.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250121045532_2.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250121045532_2.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:55:32.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\UserInfo.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\UserInfo.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\UserInfo.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\UserInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T04:46:38.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\UserRoles.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\UserRoles.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T04:12:18.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250120151454_Init25.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120151454_Init25.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120151454_Init25.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120151454_Init25.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120151454_Init25.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:14:54.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250120151650_Init1.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120151650_Init1.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120151650_Init1.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120151650_Init1.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120151650_Init1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:16:50.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250120151134_Init23.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120151134_Init23.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120151134_Init23.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120151134_Init23.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120151134_Init23.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:11:34.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250120130153_hu8.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120130153_hu8.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120130153_hu8.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120130153_hu8.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120130153_hu8.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T13:01:54.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250120130059_hu7.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120130059_hu7.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120130059_hu7.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120130059_hu7.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120130059_hu7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T13:00:59.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250120104426_hu4.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120104426_hu4.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120104426_hu4.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120104426_hu4.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120104426_hu4.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:44:26.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250120104628_hu6.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120104628_hu6.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120104628_hu6.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120104628_hu6.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120104628_hu6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:46:29.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250120103947_hu4.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120103947_hu4.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120103947_hu4.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120103947_hu4.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120103947_hu4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:39:47.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250120103035_hu.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120103035_hu.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120103035_hu.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120103035_hu.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120103035_hu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:30:35.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250120093745_ShowDetails7.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120093745_ShowDetails7.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120093745_ShowDetails7.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120093745_ShowDetails7.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120093745_ShowDetails7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T09:37:45.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250120093350_ShowDetails6.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120093350_ShowDetails6.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120093350_ShowDetails6.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120093350_ShowDetails6.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120093350_ShowDetails6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T09:33:50.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250120091322_ShowDetails2.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120091322_ShowDetails2.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120091322_ShowDetails2.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120091322_ShowDetails2.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120091322_ShowDetails2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T09:13:22.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250120090347_ShowDetails.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120090347_ShowDetails.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Migrations\\20250120090347_ShowDetails.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Migrations\\20250120090347_ShowDetails.cs",
+              "RelativeToolTip": "TicketBooking\\Migrations\\20250120090347_ShowDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T09:03:48.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TicketBooking\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:35:41.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "TicketBooking\\Models\\Response.cs",
+              "ToolTip": "C:\\Users\\BharathKumar\\source\\repos\\TicketBooking\\TicketBooking\\Models\\Response.cs",
+              "RelativeToolTip": "TicketBooking\\Models\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T04:11:24.18Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

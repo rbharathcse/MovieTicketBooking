@@ -1,0 +1,51 @@
+<div class="container-fluid mt-5">
+    <div class="row">
+      <!-- Left container: First 50 seats -->
+      <div class="col-md-6">
+        <div class="seat-container">
+          <h4 class="text-center mb-4">Section A</h4>
+          <div *ngFor="let rowIndex of [].constructor(seatsLeft.length / seatsPerRow); let row = index">
+            <div class="seat-row">
+              <div
+                *ngFor="let seat of seatsLeft.slice(row * seatsPerRow, (row + 1) * seatsPerRow)"
+                class="seat"
+                [class.booked]="isBooked(seat)"
+                [class.selected]="isSelected(seat)"
+                (click)="toggleSeat(seat)"
+              >
+                {{ seat }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Right container: Next 50 seats -->
+      <div class="col-md-6">
+        <div class="seat-container">
+          <h4 class="text-center mb-4">Section B</h4>
+          <div *ngFor="let rowIndex of [].constructor(seatsRight.length / seatsPerRow); let row = index">
+            <div class="seat-row">
+              <div
+                *ngFor="let seat of seatsRight.slice(row * seatsPerRow, (row + 1) * seatsPerRow)"
+                class="seat"
+                [class.booked]="isBooked(seat)"
+                [class.selected]="isSelected(seat)"
+                (click)="toggleSeat(seat)"
+              >
+                {{ seat }}
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container footer text-white text-center mt-5 ">
+      <p-confirmdialog/>
+        <p-button (onClick)="addBooking($event)" severity="primary">pay {{ticketPrice*selectedSeats.length}}</p-button>
+    
+    </div>
+  </div>
+  

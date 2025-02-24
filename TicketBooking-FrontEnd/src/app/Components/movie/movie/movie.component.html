@@ -1,0 +1,44 @@
+<div class="container ">
+    <div class="row mt-3 Movie-card ">
+       <div class="col-md-4 p-5  ">
+        <img class="" [src]="additionalDetails?.movieUrl" width="200" height="250" alt="">
+       </div>
+       <div class="col-md-8 ml-60 p-5 " >
+        <div class="text-dark fs-3">{{ additionalDetails?.movieName |uppercase }}</div>
+        <div class="text-dark fs-5 mb-2">{{ additionalDetails?.movieDescription }}</div>
+        <p-button id="btn" label="{{additionalDetails?.movieRating}}/10" severity="primary"  [raised]="true" class="mt-2" icon="pi pi-star-fill" />
+        <div class="kfhxuo mt-2">
+            <div class="diGRHt">
+                {{additionalDetails?.movieDuration}}h
+            </div>
+            <div class="diGRHt">
+                {{additionalDetails?.movieGenre}}
+        </div>
+        <!-- <div class="text-dark fs-5">Release Date: {{ additionalDetails?.movieDuration }}</div>
+        <div class="text-dark fs-5">Duration: {{ additionalDetails?.movieGenre }}</div>
+        <div class="text-dark fs-5">Genre: {{ additionalDetails?.movieLanguage }}</div>
+        <div class="text-dark fs-5">Rating: {{ additionalDetails?.movieRating }}</div>
+        <div class="text-dark fs-5">Language: {{ additionalDetails?.movieReleaseDate }}</div> -->
+       </div>
+    </div>
+
+</div>
+
+<div class="container d-flex flex-row mt-3">
+    <p-message [severity]="'info'"> Enter Date and Seats to Book</p-message>
+    <p-datepicker 
+    class="element"
+    [minDate]="minDate" 
+    [maxDate]="maxDate" 
+    (onSelect)="onDateChange($event)"
+    placeholder="Enter Date" 
+    showIcon="true"
+    [iconDisplay]="'input'">
+  </p-datepicker> <input type="number" class="element form-control" placeholder="Enter Seats" [(ngModel)]="seats">
+</div>
+<div class="row mt-3 Shows">
+    <div class="showcards  col-md-12 mt-3 border border-success  rounded mt-2 " *ngFor="let show of movieShowArray">
+      {{ show }}
+      <button class="btn btn-outline-primary mt-1" (click)="check(show)" >Book</button>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary" >
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img
+            src="https://img.freepik.com/premium-vector/cinema-concept-with-popcorn-3d-glasses-film-roll-clapperboard_741811-58.jpg" 
+            alt="" 
+            width="30"
+            height="30"> BookShow</a>
+        <div class="d-flex ms-auto">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#display">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+        <div class="collapse navbar-collapse" id="display">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-light" routerLink="/">Home</a></li>
+                
+                <li class="nav-item" *appAuth="loggedIn$" ><a class="nav-link text-light" routerLink="/admin/addmovie">Admin</a></li>
+                
+                <li *ngIf="!loggedIn$" class="nav-item"><a class="nav-link text-light"  routerLink="account">Account</a></li>
+                <li *ngIf="loggedIn$" class="nav-item dropdown">
+                    <a 
+                      class="nav-link text-light dropdown-toggle" 
+                      id="navbarDropdown" 
+                      role="button" 
+                      data-bs-toggle="dropdown" 
+                      aria-expanded="false">
+                      Hi {{ name | emailToName }}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown" aria-labelledby="navbarDropdown">
+                      <li><a routerLink="cart/{{userId}}" class="dropdown-item" ><i class="pi pi-cart-plus"></i> Cart</a></li>
+                     
+                      <li>
+                        <a 
+                          class="dropdown-item" 
+                          (click)="logout()" 
+                          routerLink="/" 
+                          routerLinkActive="router-link-active">
+                          LogOut
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+            </ul>
+        </div>
+    </div>
+</nav>
+<app-toaster></app-toaster>
+<router-outlet></router-outlet>

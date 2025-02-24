@@ -1,0 +1,302 @@
+[
+  {
+    "ContainingType": "TicketBooking.Controllers.AdminController",
+    "Method": "Addmovie",
+    "RelativePath": "api/Admin/add-Movie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movieName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieDuration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieRating",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieReleaseDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieGenre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieLanguage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.AdminController",
+    "Method": "AddShowDetails",
+    "RelativePath": "api/Admin/addShowDetails/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "showTime",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "screenNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "totalSeats",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ticketPrice",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "MovieId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.AdminController",
+    "Method": "deleteMovie",
+    "RelativePath": "api/Admin/deleteMovie/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.AdminController",
+    "Method": "EditShowDetails",
+    "RelativePath": "api/Admin/editShowDetails/{movieId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movieId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "TicketBooking.Models.ViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.AdminController",
+    "Method": "GetMovies",
+    "RelativePath": "api/Admin/getMovies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.UserController",
+    "Method": "AddUsers",
+    "RelativePath": "api/User/add-User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userViewModel",
+        "Type": "TicketBooking.Models.UserViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.UserController",
+    "Method": "AllBookings",
+    "RelativePath": "api/User/AllBookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.UserController",
+    "Method": "Booking",
+    "RelativePath": "api/User/Booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking",
+        "Type": "TicketBooking.Models.Booking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.UserController",
+    "Method": "GetBookings",
+    "RelativePath": "api/User/GetBooking/{movieId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movieId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "TicketBooking.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.UserController",
+    "Method": "GetMovieDetails",
+    "RelativePath": "api/User/MovieDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.UserController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/User/register-Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.UserController",
+    "Method": "GetUserInfo",
+    "RelativePath": "api/User/userinfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TicketBooking.WeatherForecast, TicketBooking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

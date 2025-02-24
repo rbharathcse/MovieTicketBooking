@@ -1,0 +1,89 @@
+<div class="container-fluid d-flex">
+  <div
+    *ngIf="!loginClicked"
+    class="container login rounded-2 mt-5 w-50 d-flex flex-column align-items-center justify-content-center"
+    style="height: 300px;"
+  >
+    <div class="text-dark fs-3 mb-3">Login</div>
+    <form
+      [formGroup]="formgroup"
+      class="w-75"
+      style="display: flex; flex-direction: column; padding: 20px;"
+    >
+      <input
+        type="email"
+        class="form-control mt-2 p-2"
+        formControlName="email"
+        placeholder="Enter Email"
+
+      />
+      <!-- <div *ngif="formgroup?.get('email')?.touched && formgroup?.get('email')?.errors?.['required']" class="text-danger">Email is required</div> -->
+      <input
+        type="password"
+        class="form-control mt-2 p-2"
+        formControlName="password"
+        placeholder="Enter Password"
+      />
+      <button  type="submit" class="btn btn-primary mt-3" (click)="login()">Login</button>
+    </form>
+    <div>
+      Create an Account
+      <a class="d-inline" style="cursor: pointer;" (click)="change()"
+        >Register</a
+      >
+    </div>
+  </div>
+
+  
+  <div
+    *ngIf="loginClicked"
+    class="container register rounded-2 mt-5 w-50 d-flex flex-column align-items-center justify-content-center"
+    style="height: 450px;"
+  >
+    <div class="text-dark fs-3 mb-3">Register</div>
+    <form
+      [formGroup]="registerFormGroup"
+      class="w-75"
+      style="display: flex; flex-direction: column; padding: 20px;"
+    >
+      <input
+        type="text"
+        formControlName="name"
+        class="form-control mt-2 p-2"
+        placeholder="Enter Full Name"
+      />
+      <input
+        type="email"
+        formControlName="email"
+        class="form-control mt-2 p-2"
+        placeholder="Enter Email"
+      />
+      <input
+        type="password"
+        formControlName="password"
+        class="form-control mt-2 p-2"
+        placeholder="Enter alphanumeric Password Minlength-10"
+      />
+      
+      
+      <input
+        type="password"
+        formControlName="cpassword"
+        class="form-control mt-2 p-2"
+        placeholder="Enter Confirmation Password"
+      />
+      <div *ngIf="registerFormGroup.get('cpassword')?.touched && registerFormGroup.errors?.['mismatch']" class="text-danger">
+        <small>Passwords do not match.</small>
+      </div>
+     
+<button type="submit" class="btn btn-primary mt-3" (click)="register()" >
+Register
+</button>
+    </form>
+    <div>
+      Have an Account?
+      <a class="d-block" style="cursor: pointer;" (click)="change()">Login</a>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,98 @@
+<div class="container mt-4">
+  <form [formGroup]="movieShowForm" (ngSubmit)="submitForm()" class="p-3 border rounded shadow">
+    
+    
+    <!-- Movie Details -->
+    <h5>Movie Information</h5>
+
+    <div class="mb-3">
+      <label for="movieName" class="form-label">Movie Name</label>
+      <input type="text" id="movieName" class="form-control" formControlName="movieName" placeholder="Enter Movie Name">
+    </div>
+
+    <div class="mb-3">
+      <label for="movieUrl" class="form-label">Movie URL</label>
+      <input type="text" id="movieUrl" class="form-control" formControlName="movieUrl" placeholder="Enter Movie URL">
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <label for="movieRating" class="form-label">Movie Rating</label>
+        <input type="text" id="movieRating" class="form-control" formControlName="movieRating" placeholder="Enter Rating">
+      </div>
+      <div class="col-md-6">
+        <label for="movieReleaseDate" class="form-label">Release Date</label>
+        <input type="date" id="movieReleaseDate" class="form-control" formControlName="movieReleaseDate">
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="movieDescription" class="form-label">Description</label>
+      <textarea id="movieDescription" class="form-control" formControlName="movieDescription" rows="3" placeholder="Enter Movie Description"></textarea>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <label for="movieDuration" class="form-label">Duration</label>
+        <input type="text" id="movieDuration" class="form-control" formControlName="movieDuration" placeholder="Enter Duration (e.g. 2h 15m)">
+      </div>
+      <div class="col-md-6">
+        <label for="movieGenre" class="form-label">Genre</label>
+        <p-select styleClass="h-20" id="movieGenre" formControlName="movieGenre" placeholder="Select genre" [options]="genre"  required></p-select>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="movieLanguage" class="form-label">Language</label>
+      <input type="text" id="movieLanguage" class="form-control" formControlName="movieLanguage" placeholder="Enter Language">
+    </div>
+    <!-- Date Range -->
+    <div class="mb-3">
+      <label for="dateRange" class="form-label">Show Date Range</label>
+      <p-datepicker 
+        selectionMode="range"
+        formControlName="dateRange"
+        placeholder="Select Date Range">
+      </p-datepicker>
+    </div>
+
+    <!-- Show Time -->
+    <div class="mb-3">
+      <label for="showTime" class="form-label">Show Time</label>
+      <p-multiselect
+                    [filter]="true"
+                    id="ShowTime"
+                    placeholder="Select ShowTime"
+                    [options]="showTime"
+                    [(ngModel)]="selectedShowTime"  
+                    formControlName="showTime"
+                    styleClass="w-full"
+                    [maxSelectedLabels]="1"
+                  ></p-multiselect>
+    </div>
+
+    <!-- Ticket Price & Screen Number -->
+    <div class="row">
+      <div class="col-md-6">
+        <label for="ticketPrice" class="form-label">Ticket Price</label>
+        <input type="number" id="ticketPrice" class="form-control" formControlName="ticketPrice" placeholder="Enter Ticket Price">
+      </div>
+      <div class="col-md-6">
+        <label for="screenNumber" class="form-label">Screen Number</label>
+        <input type="number" id="screenNumber" class="form-control" formControlName="screenNumber" placeholder="Enter Screen Number">
+      </div>
+    </div>
+
+    <!-- Total Seats -->
+    <div class="mb-3">
+      <label for="totalSeats" class="form-label">Total Seats</label>
+      <input type="number" id="totalSeats" class="form-control" formControlName="totalSeats" placeholder="Total Seats">
+    </div>
+
+    <hr>
+
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary w-100 mt-3">Update Show</button>
+  </form>
+</div>

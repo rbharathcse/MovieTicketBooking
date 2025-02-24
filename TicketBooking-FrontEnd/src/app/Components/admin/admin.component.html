@@ -1,0 +1,18 @@
+<div class="container-fluid" style=" padding: 0;">
+   <div class="row h-100" style="height: 100vh; margin: 0;">
+     <div class="col-md-2 " style="height: 100vh; padding: 0;">
+       <p-menu [model]="items" styleClass="h-100" >
+         <ng-template let-item pTemplate="item" >
+           <a class="p-menu-item-link" [routerLink]="item.routerLink">
+             <span [class]="item.icon" style="margin-right: 10px;"></span>
+             <span>{{ item.label }}</span>
+           </a>
+         </ng-template>
+       </p-menu>
+     </div>
+     <div class="col-md-10">
+      <router-outlet></router-outlet>
+     </div>
+   </div>
+</div>
+

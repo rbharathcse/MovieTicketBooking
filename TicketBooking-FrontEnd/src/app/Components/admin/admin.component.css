@@ -1,0 +1,13 @@
+:host ::ng-deep .p-menu {
+    background-color: #edeff1;
+    border-radius: 0%;
+  }
+ .p-menu-item-link{
+    margin-top: 15px;
+    gap:10px;
+    
+}
+.p-menu-item-link:hover{
+    background-color: rgba(13,110,253,2);
+    color: white;
+}
